@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "css": [ "buildbot.css" ],
+      "js": [ "buildbot.js" ],
+      "matches": [ "*://build.chromium.org/p/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "rietveld.css" ],
+      "js": [ "xsrf.js", "rietveld.js" ],
+      "matches": [ "*://codereview.chromium.org/*", "*://chromiumcodereview.appspot.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Meant to be useful to chromium developers (for buildbot and/or codereview).",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCHPBnm/sXvNMiizXUuMWTcK0NTnIUt1UGvp2CFJ4XzZ36rYssklYevtzr+pQpXJbKY2GzsKJYksZzvxTuJ6FX+xsWsxs6LPO105YCrvZW6LtONIWIDU7uNjYxJJAhae8atywswyQa2ZSIni+zq3/ok1tfAapSI0k4vZUBIJRMbZwIDAQAB",
+   "manifest_version": 2,
+   "name": "Chromite Butler",
+   "permissions": [ "*://src.chromium.org/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

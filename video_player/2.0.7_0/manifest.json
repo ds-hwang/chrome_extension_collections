@@ -1,0 +1,37 @@
+{
+   "api_console_project_id": "860115892612",
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "container": [ "GOOGLE_DRIVE" ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "file_handlers": {
+      "3D files": {
+         "extensions": [ "3gp", "3gpp", "avi", "flv", "mov", "mpeg", "mpeg4", "mp4", "ogg", "webm", "wmv", "m4v", "mkv", "ogv" ],
+         "title": "Play Video",
+         "types": [ "video/*" ]
+      }
+   },
+   "icons": {
+      "128": "assets/icons/icon128.png",
+      "16": "assets/icons/icon16.png",
+      "48": "assets/icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2T+F0tZlS7baDTwtLbgdxAEeLmwcod3lDAfBDtrSUDqpiAwmeNaJ2X9oS4sDQITflS9n5ktPWhvWPIqB6k3rgxOqOUwsocSQakx2ifsb78+rk1vhmLYQhlke9NWIZJquTAA+YS16Dh0KWvadp4Rp/UbSxez+0FNbBs++keEiSTlHSu/W2Zlves/3jrYdUs7ZbXIaKhXcETAbZTiA5gdmwsT+Scf6nDp7CRMxitCVKIoovJYIcnI06VMNJt8qaC3Wuw4gtwXd5/CIJpSxUxbwUTAe9wKRz0WBMhoXbPCfZ7uiGegBDIE3rLNhZ3ItZNqzbDgBMwgnOeW20VMDoHB1zwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "28",
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "860115892612-p52mtgmq2pubq3s1tjkpcu8iq1e88rjb.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "offline_enabled": true,
+   "permissions": [ "*://*/*", "storage", "notifications", "identity", "system.memory", "fullscreen", "fileSystem", "webview", {
+      "mediaGalleries": [ "read", "allAutoDetected" ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.7"
+}

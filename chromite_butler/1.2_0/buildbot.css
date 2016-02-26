@@ -1,0 +1,31 @@
+.revisions > li:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+
+.author {
+  color: blue;
+}
+
+.errorlinks > li {
+  display: inline-block;
+  padding-left: 0px;
+  vertical-align: top;
+}
+
+.errorlinks {
+  border: 1px solid black;
+  padding-left: 0px;
+}
+
+.errorcategory > li {
+  text-align: left;
+}
+
+.custom-cell {
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

@@ -1,0 +1,286 @@
+{
+   "GDriveFolderDialogTitle": {
+      "description": "Folders dialog: done button",
+      "message": "Add Google Drive folder"
+   },
+   "Loading": {
+      "description": "Loading message, displayed when starting up",
+      "message": "Loading"
+   },
+   "activateChromecastBeta": {
+      "description": "Activate Chromecast mode (beta)",
+      "message": "Activate Chromecast mode (Beta)."
+   },
+   "activateChromecastBetaButtonActivate": {
+      "description": "Activate Chromecast - button",
+      "message": "Activate free for 3 month"
+   },
+   "activateChromecastBetaButtonCancel": {
+      "description": "Activate Chromecast - button",
+      "message": "No, thank you"
+   },
+   "activateChromecastBetaDescription": {
+      "description": "Activate Chromecast - description",
+      "message": "Video Player can now play your videos on your TV using Chromecast media streaming device."
+   },
+   "activateChromecastBetaOffer": {
+      "description": "Activate Chromecast - description",
+      "message": "This feature is offered free for limited time."
+   },
+   "activateChromecastBetaSupport": {
+      "description": "using our support page",
+      "message": "While  Chromecast mode is currently in Beta, we kindly ask to submit your issues or concerns using our support page instead of making a review. You can find the link to the support page in the Help dialog."
+   },
+   "activateChromecastBetaTerms": {
+      "description": "Activate Chromecast - terms",
+      "message": "Subject to Beta testing program. Limited time offer. Feature may later be offered separately as a paid service."
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Leitor de vídeo com playlist e galeria. Suporta Chromecast!"
+   },
+   "appDesc2": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Veja os seus arquivos de vídeo locais na TV e usar o mouse como controle remotoю"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Leitor de vídeo"
+   },
+   "appName2": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Video Player para Chromecast™"
+   },
+   "betaFinished": {
+      "description": "Chromecast mode deactivated",
+      "message": "Chromecast mode deactivated"
+   },
+   "betaFinishedDescription": {
+      "description": "Beta activation is finished",
+      "message": "Your Chromecast mode Beta activation is finished. Please update Video Player app to get the most recent release!"
+   },
+   "betaProlongation": {
+      "description": "Chromecast mode reactivation",
+      "message": "Chromecast mode reactivation"
+   },
+   "betaProlongationDescription": {
+      "description": "Good news! We decided to extend the free beta program for the Chromecast mode. You can now activate and use it free for 3 more month.",
+      "message": "Good news! We decided to extend the free beta program for the Chromecast mode. You can now use it free for 3 more month."
+   },
+   "betaProlongationFeedback": {
+      "description": "We are not yet sure whether to keep Chromecast mode in future. Tell us if you like it here",
+      "message": "We are not yet sure whether to keep Chromecast mode in future. Tell us if you like it "
+   },
+   "castModeOff": {
+      "description": "Tip: Cast mode: OFF",
+      "message": "Cast mode: OFF"
+   },
+   "castModeOn": {
+      "description": "Tip: Cast mode: ON",
+      "message": "Cast mode: ON"
+   },
+   "chooseChromecastPart1": {
+      "description": "Click",
+      "message": "Click"
+   },
+   "chooseChromecastPart2": {
+      "description": "and choose your device",
+      "message": "and choose your device"
+   },
+   "chromecastIssues": {
+      "description": "Chromecast issues",
+      "message": "Chromecast issues"
+   },
+   "chromecastIssuesDescription": {
+      "description": "Chromecast issues description",
+      "message": "If you experience slow response on your TV or playback is not smooth, go to Google Cast extension options and change casting quality to Standard (480p)."
+   },
+   "disablePasswordProtect": {
+      "description": "Never offer password protection",
+      "message": "Nunca oferta"
+   },
+   "enterPassword": {
+      "description": "Enter password",
+      "message": "Digite a senha"
+   },
+   "foldersDialogDescription": {
+      "description": "Folders dialog: description",
+      "message": "'Video Player' will read video files from locations selected below:"
+   },
+   "foldersDialogDoneButton": {
+      "description": "Folders dialog: done button",
+      "message": "Done"
+   },
+   "foldersDialogGDriveButton": {
+      "description": "Folders dialog: add google drive folder button",
+      "message": "Add Google Drive Folder"
+   },
+   "foldersDialogLocalButton": {
+      "description": "Folders dialog: add local folder button",
+      "message": "Add Local Folder"
+   },
+   "foldersDialogStatisticsCheckbox": {
+      "description": "Collect anonymous usage statistics element",
+      "message": "Collect anonymous usage statistics"
+   },
+   "foldersDialogThumbnailsCheckbox": {
+      "description": "Generate thumbnails checkbox element",
+      "message": "Generate thumbnails for new Google Drive videos (consumes internet traffic)"
+   },
+   "foldersDialogTitle": {
+      "description": "Folders dialog: title",
+      "message": "Add and select video folders"
+   },
+   "foldersDialogTitlesCheckbox": {
+      "description": "Show title at the beginning of each video",
+      "message": "Show title at the beginning of each video"
+   },
+   "foldersDialogUnsupportedCheckbox": {
+      "description": "Hide unsupported checkbox element",
+      "message": "Hide unsupported video files"
+   },
+   "generatingThumbnailsText": {
+      "description": "thumbnails creation progress",
+      "message": "Generating thumbnails: "
+   },
+   "getChromecast": {
+      "description": "Tip: Get Chromecast support",
+      "message": "Activate Chromecast"
+   },
+   "help": {
+      "description": "Help",
+      "message": "Help"
+   },
+   "helpShortcuts": {
+      "description": "Player supports the following keyboard short-cuts",
+      "message": "Player supports the following keyboard short-cuts:"
+   },
+   "hereLink": {
+      "description": "here",
+      "message": "here"
+   },
+   "installCastExtensionDescription1": {
+      "description": "Chromecast Player needs Google Cast extension to connect to your TV",
+      "message": "Chromecast Player needs Google Cast extension to connect to your TV"
+   },
+   "installCastExtensionDescription2": {
+      "description": "Install cast extension",
+      "message": "After installation, reload Video Player or click"
+   },
+   "installCastExtensionInstall": {
+      "description": "Google Cast",
+      "message": "Install Google Cast"
+   },
+   "installCastExtensionNoChromecast": {
+      "description": "I don't have Chromecast",
+      "message": "I don't have Chromecast"
+   },
+   "installCastExtensionTitle": {
+      "description": "Install cast extension",
+      "message": "Install cast extension"
+   },
+   "noVideos": {
+      "description": "No videos callout, displayed if gallery is empty",
+      "message": "Press this button to add videos"
+   },
+   "noticeChromecast": {
+      "description": "Press this button to toggle Chromecast mode",
+      "message": "Press this button to toggle Chromecast mode"
+   },
+   "ourTeam": {
+      "description": "tech support",
+      "message": "We are constantly improving our software. If you want to get quick fix, click"
+   },
+   "passwordProtect": {
+      "description": "Password protection",
+      "message": "A proteção por senha"
+   },
+   "passwordReset": {
+      "description": "Reinstall Video Player to reset password",
+      "message": "Reinstalar Video Player para redefinir a senha"
+   },
+   "passwordSettings": {
+      "description": "Set new password",
+      "message": "Definir nova senha"
+   },
+   "playbackIssues": {
+      "description": "Playback issues",
+      "message": "Playback issues"
+   },
+   "playbackIssuesDescription": {
+      "description": "Playback issues description",
+      "message": "Some files might have issues with video or sound because your Google Chrome does not support many codecs yet. It is not of our power to fix that. Convert your videos to WEBM format to have 100% compatibility with Chrome."
+   },
+   "selectMediaFolders": {
+      "description": "Tip: Select Media Folders button",
+      "message": "Select media folders"
+   },
+   "shortcutFullScreen": {
+      "description": "Toggle full screen",
+      "message": "Toggle full screen"
+   },
+   "shortcutJump30": {
+      "description": "Playback jump 30 sec",
+      "message": "Playback jump 30 sec"
+   },
+   "shortcutJump5": {
+      "description": "Playback jump 5 sec",
+      "message": "Playback jump 5 sec"
+   },
+   "shortcutPlay": {
+      "description": "Toggle play or pause",
+      "message": "Toggle play or pause"
+   },
+   "shortcutSpeed20": {
+      "description": "Playback speed +/- 20%",
+      "message": "Playback speed +/- 20%"
+   },
+   "shortcutSpeed5": {
+      "description": "Playback speed +/- 5%",
+      "message": "Playback speed +/- 5%"
+   },
+   "shortcutTrack": {
+      "description": "Go to next/previous track in playlist",
+      "message": "Go to next/previous track in playlist"
+   },
+   "shortcutVolume": {
+      "description": "Change volume",
+      "message": "Change volume"
+   },
+   "shuffleModeOff": {
+      "description": "Tip: Shuffle mode off",
+      "message": "Shuffle: OFF"
+   },
+   "shuffleModeOn": {
+      "description": "Tip: Shuffle mode on",
+      "message": "Shuffle: ON"
+   },
+   "speed": {
+      "description": "Play speed",
+      "message": "Velocidade"
+   },
+   "supportMail": {
+      "description": "tech support",
+      "message": "For general help please mail to"
+   },
+   "time": {
+      "description": "Time",
+      "message": "Posição"
+   },
+   "viewModeGrid": {
+      "description": "Tip: View mode grid",
+      "message": "View: Grid"
+   },
+   "viewModeHybrid": {
+      "description": "Tip: View mode hybrid",
+      "message": "View: Hybrid"
+   },
+   "viewModeList": {
+      "description": "Tip: View mode list",
+      "message": "View: List"
+   },
+   "volume": {
+      "description": "Volume",
+      "message": "Volume"
+   }
+}

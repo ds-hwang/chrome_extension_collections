@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Player</title>
+        <link rel="stylesheet" href="player.css">
+        <link rel="stylesheet" href="spinner.css">
+        <link rel="stylesheet" href="GoogleDrive/modal.css">
+        <script src="google-analytics-bundle.js"></script>
+        <script src="GoogleDrive/gdocs.js"></script>
+        <script src="GoogleDrive/GoogleDriveOperations.js"></script>
+        <script src="GoogleDrive/SelectFoldersDialog.js"></script>
+		<link href="help/modal.css" rel="stylesheet" type="text/css">
+        <script src="help/helpDialog.js"></script>
+		<link href="modalWizard/modal.css" rel="stylesheet" type="text/css">
+		<script src="modalWizard/wizard.js" type="text/javascript"></script>
+        <script src="player.js"></script>
+        <script src="thumbnails/thumbnails.js"></script>
+		<script src="password/md5.js" type="text/javascript"></script>
+		<script src="password/password.js" type="text/javascript"></script>
+		
+		<script src="fancytree/jquery.js" type="text/javascript"></script>
+		<script src="fancytree/jquery-ui.custom.js " type="text/javascript"></script>
+		<link href="fancytree/skin-win8/ui.fancytree.css" rel="stylesheet" type="text/css">
+		<script src="fancytree/jquery.fancytree-all.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="chromecast/cast_sender.js"></script>
+		<script type="text/javascript" src="chromecast/helloVideos.js"></script>
+		<link href="chromecast/modal.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="controls/controls.js"></script>
+		
+    </head>
+    <body>
+	
+		<!--<webview src="cast/cast.html" name="chromecast-view" partition="chromecast" style="width:1000px; height:800px;z-index: 2147483648"></webview>-->
+		
+        <div id="container">
+            <div id="content"></div>
+            <div id="caption-wrapper">
+				<div id="caption-block"></div>
+				<div id="caption"></div>
+			</div>
+			<div id="gallery">
+				<div id="shade"></div>
+				<div id="list">
+					<div id = 'tooltip'><image id = 'tip-image'/></div>
+					<button class ="gallery-button" id="configure-button"></button>
+					<div class ="gallery-button" id="help-button">?</div>
+					<!--<button class ="gallery-button" id="gdrive-button" title="Google Drive"></button>-->
+					<button class ="gallery-button" id="scan-button"></button>
+					<button class ="gallery-button" id="shuffle-button" style="visibility:hidden"></button>
+					<button class ="gallery-button" id="view-button" style="visibility:hidden"></button>
+					<button class ="gallery-button" id="cast-button" style="visibility:hidden"></button>
+					<div class="callout" id="notice-chromecast-callout" style = "display:none">
+						<img src="/assets/images/white_arrow.png"/>
+					</div>
+					<div class="callout" id="no-videos-callout">
+						<img src="/assets/images/white_arrow.png"/>
+					</div>
+					<div id="GalleryList"></div>
+				</div>
+			</div>
+        </div>
+		
+		<div id = "app-loading">
+			<div id = "i18n-Loading" class="left"></div>
+			<div class="spinner right"></div>
+		</div>
+
+		<div id = "thumbnails-generation">
+			<div id = "progress-cancel" class="remove-folder left"></div>		
+			<div id = "progress-indicator" class = "right"></div>		
+		</div>
+		
+		<div id = "modal-dialog" style = "visibility:hidden">
+		</div>
+		
+		<div id = "extension-help"  style = "visibility:hidden; position: absolute; top: -80px;">
+			<div id = "choose-chromecast">
+				<div id = "click-extension"></div>
+			</div>
+			<div id = "choose-chromecast-arrow">
+				--->
+			</div>
+			<div id = "highlight-extension"></div>
+		</div>
+		
+		<div id = "mouse-cursor" style = "display:none">
+		</div>
+		
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "contentscript.js" ],
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Debug, diagnose, and explore WebGL scenes.",
+   "homepage_url": "http://benvanik.github.com/WebGL-Inspector/",
+   "icons": {
+      "128": "webgl-128.png",
+      "48": "webgl-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDILzIwczENV1zpX/85EK3rrC/kpiGCmkneh5JiXa8TlmRKvU4Nklxi29BaIluOyRKMsoOifcXjA45x3XgH1nqjadQcLvAqf+3vFYuWmCU8dhm7hEfh3Kgsfdt8OyD+9kfvlsx88r6nB2auicWxhUZEv8T6IdLZMzL2qFr3hHXsGwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "20",
+   "name": "WebGL Inspector",
+   "page_action": {
+      "default_icon": "webgl-19.png",
+      "default_title": "Debug with WebGL Inspector"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.13",
+   "web_accessible_resources": [ "gli.all.css", "gli.all.js", "assets/*", "assets/array-buffer.png", "assets/button-close.png", "assets/button-options.png", "assets/draw-info.png", "assets/element-array-buffer.png", "assets/grid.png", "assets/gutter-arrow.png", "assets/icon-current.png", "assets/icon-error.png", "assets/icon-warning.png", "assets/isolated-call.png", "assets/mini-button-left.png", "assets/mini-button-right.png", "assets/mini-button-span.png", "assets/minibar-command-next.png", "assets/minibar-command-prev.png", "assets/minibar-command-rewind.png", "assets/minibar-command-run.png", "assets/minibar-command-rununtil.png", "assets/minibar-span.png", "assets/texture-2d.png", "assets/texture-cube.png", "assets/window-top-span.png" ]
+}

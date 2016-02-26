@@ -1,0 +1,286 @@
+{
+   "GDriveFolderDialogTitle": {
+      "description": "Folders dialog: done button",
+      "message": "Добавить папку из Google Drive"
+   },
+   "Loading": {
+      "description": "Loading message, displayed when starting up",
+      "message": "Загрузка"
+   },
+   "activateChromecastBeta": {
+      "description": "Activate Chromecast mode (beta)",
+      "message": "Активировать режим Chromecast"
+   },
+   "activateChromecastBetaButtonActivate": {
+      "description": "Activate Chromecast - button",
+      "message": "Активировать бесплатно на 3 месяца"
+   },
+   "activateChromecastBetaButtonCancel": {
+      "description": "Activate Chromecast - button",
+      "message": "Нет, спасибо"
+   },
+   "activateChromecastBetaDescription": {
+      "description": "Activate Chromecast - description",
+      "message": "Режим Chromecast позволяет смотреть видео на телевизоре с помощью устройства Chromecast."
+   },
+   "activateChromecastBetaOffer": {
+      "description": "Activate Chromecast - description",
+      "message": "Пользуйтесь им бесплатно на протяжении 3х месяцев."
+   },
+   "activateChromecastBetaSupport": {
+      "description": "using our support page",
+      "message": "Пока функциональность находится на этапе бета тестирования мы просим вас оставлять комментарии только на странице технической поддержки. Ссылка на эту страницу находится в окне Помощь."
+   },
+   "activateChromecastBetaTerms": {
+      "description": "Activate Chromecast - terms",
+      "message": "Предложение является частью программы бета тестирования. По прошествии 3х месяцев, функциональность может быть предложена за отдельную плату."
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Программа для удобного просмотра видеофайлов для взрослых и детей. Совместима с Chromecast."
+   },
+   "appDesc2": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Смотрите локальные видеофайлы по телевизору и использовать мышь как пульт ДУ."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Видео проигрыватель"
+   },
+   "appName2": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Видео проигрыватель для Chromecast™"
+   },
+   "betaFinished": {
+      "description": "Chromecast mode deactivated",
+      "message": "Режим Chromecast деактивирован"
+   },
+   "betaFinishedDescription": {
+      "description": "Beta activation is finished",
+      "message": "Ваша активация режима Chromecast закончилась. Пожалуйста обновите программу!"
+   },
+   "betaProlongation": {
+      "description": "Chromecast mode reactivation",
+      "message": "Повторная активация Chromecast"
+   },
+   "betaProlongationDescription": {
+      "description": "Good news! We decided to extend the free beta program for the Chromecast mode. You can now activate and use it free for 3 more month.",
+      "message": "Мы решили продолжить программу бета тестирования. Вы можете бесплатно пользоваться режимом Chromecast еще 3 месяца!"
+   },
+   "betaProlongationFeedback": {
+      "description": "We are not yet sure whether to keep Chromecast mode in future. Tell us if you like it here",
+      "message": "Мы еще не решили оставлять ли режим Chromecast в будущих версиях. Если он вам нравится, напишите об этом "
+   },
+   "castModeOff": {
+      "description": "Tip: Cast mode: OFF",
+      "message": "Chromecast: Выкл."
+   },
+   "castModeOn": {
+      "description": "Tip: Cast mode: ON",
+      "message": "Chromecast: Вкл."
+   },
+   "chooseChromecastPart1": {
+      "description": "Click",
+      "message": "Нажмите"
+   },
+   "chooseChromecastPart2": {
+      "description": "and choose your device",
+      "message": "и выберите ваше устройство"
+   },
+   "chromecastIssues": {
+      "description": "Chromecast issues",
+      "message": "Проблемы с Chromecast-ом"
+   },
+   "chromecastIssuesDescription": {
+      "description": "Chromecast issues description",
+      "message": "Если видео на телевизоре проигрывается рывками, в опциях расширения Google Cast поставьте уровень качества Стандартное (480p)."
+   },
+   "disablePasswordProtect": {
+      "description": "Never offer password protection",
+      "message": "Не предлагать"
+   },
+   "enterPassword": {
+      "description": "Enter password",
+      "message": "Введите пароль"
+   },
+   "foldersDialogDescription": {
+      "description": "Folders dialog: description",
+      "message": "Видео проигрыватель получит доступ к видеофайлам в отмеченных папках:"
+   },
+   "foldersDialogDoneButton": {
+      "description": "Folders dialog: done button",
+      "message": "Применить"
+   },
+   "foldersDialogGDriveButton": {
+      "description": "Folders dialog: add google drive folder button",
+      "message": "Добавить папку из Google Drive"
+   },
+   "foldersDialogLocalButton": {
+      "description": "Folders dialog: add local folder button",
+      "message": "Добавить папку"
+   },
+   "foldersDialogStatisticsCheckbox": {
+      "description": "Collect anonymous usage statistics element",
+      "message": "Собирать анонимную статистику использования"
+   },
+   "foldersDialogThumbnailsCheckbox": {
+      "description": "Generate thumbnails checkbox element",
+      "message": "Создавать эскизы для видеофайлов из Google Drive (использует интернет)"
+   },
+   "foldersDialogTitle": {
+      "description": "Folders dialog: title",
+      "message": "Доступ к видеофайлам"
+   },
+   "foldersDialogTitlesCheckbox": {
+      "description": "Show title at the beginning of each video",
+      "message": "Показывать имя файла в начале видео"
+   },
+   "foldersDialogUnsupportedCheckbox": {
+      "description": "Hide unsupported checkbox element",
+      "message": "Скрыть видео файлы неподдерживаемых форматов"
+   },
+   "generatingThumbnailsText": {
+      "description": "thumbnails creation progress",
+      "message": "Создаю эскизы: "
+   },
+   "getChromecast": {
+      "description": "Tip: Get Chromecast support",
+      "message": "Активировать Chromecast"
+   },
+   "help": {
+      "description": "Help",
+      "message": "Помощь"
+   },
+   "helpShortcuts": {
+      "description": "Player supports the following keyboard short-cuts",
+      "message": "Программа поддерживает такие комманды:"
+   },
+   "hereLink": {
+      "description": "here",
+      "message": "тут"
+   },
+   "installCastExtensionDescription1": {
+      "description": "Chromecast Player needs Google Cast extension to connect to your TV",
+      "message": "Программа требует установки расширения Google Cast чтобы передавать видео на телевизор"
+   },
+   "installCastExtensionDescription2": {
+      "description": "Install cast extension",
+      "message": "Прегрузите страницу после установки или нажмите"
+   },
+   "installCastExtensionInstall": {
+      "description": "Google Cast",
+      "message": "Установить Google Cast"
+   },
+   "installCastExtensionNoChromecast": {
+      "description": "I don't have Chromecast",
+      "message": "У меня нет Chromecast"
+   },
+   "installCastExtensionTitle": {
+      "description": "Install cast extension",
+      "message": "Установите Google Cast"
+   },
+   "noVideos": {
+      "description": "No videos callout, displayed if gallery is empty",
+      "message": "Нажмите сюда чтобы указать папки с видео файлами."
+   },
+   "noticeChromecast": {
+      "description": "Press this button to toggle Chromecast mode",
+      "message": "Нажмите сюда чтобы включить режим Chromecast"
+   },
+   "ourTeam": {
+      "description": "tech support",
+      "message": "Мы постоянно улучшаем приложение. Если вы нашли ошибку, нажмите"
+   },
+   "passwordProtect": {
+      "description": "Password protection",
+      "message": "Защита паролем"
+   },
+   "passwordReset": {
+      "description": "Reinstall Video Player to reset password",
+      "message": "Для сброса пароля переустановите Видео плеер"
+   },
+   "passwordSettings": {
+      "description": "Set new password",
+      "message": "Установить пароль"
+   },
+   "playbackIssues": {
+      "description": "Playback issues",
+      "message": "Проблемы с проигрыванием"
+   },
+   "playbackIssuesDescription": {
+      "description": "Playback issues description",
+      "message": "Google Chrome обладает неполной поддержкой видео форматов, многие из ваших файлов могут проигрываться без звука или не проигрываться вовсе. Если вы столкнулись с такой проблемой, переведите свое видео в формат WEBM. Для этого существует много бесплатных приложений, например Miro Video Converter."
+   },
+   "selectMediaFolders": {
+      "description": "Tip: Select Media Folders button",
+      "message": "Выбор папок с видеофайлами"
+   },
+   "shortcutFullScreen": {
+      "description": "Toggle full screen",
+      "message": "На весь экран"
+   },
+   "shortcutJump30": {
+      "description": "Playback jump 30 sec",
+      "message": "Прокрутка на 30 сек"
+   },
+   "shortcutJump5": {
+      "description": "Playback jump 5 sec",
+      "message": "Прокрутка на 5 сек"
+   },
+   "shortcutPlay": {
+      "description": "Toggle play or pause",
+      "message": "Играть/Стоп"
+   },
+   "shortcutSpeed20": {
+      "description": "Playback speed +/- 20%",
+      "message": "Скорость +/- 20%"
+   },
+   "shortcutSpeed5": {
+      "description": "Playback speed +/- 5%",
+      "message": "Скорость +/- 5%"
+   },
+   "shortcutTrack": {
+      "description": "Go to next/previous track in playlist",
+      "message": "Следующее/предыдущее видео"
+   },
+   "shortcutVolume": {
+      "description": "Change volume",
+      "message": "Громкость"
+   },
+   "shuffleModeOff": {
+      "description": "Tip: Shuffle mode off",
+      "message": "Алфавитный порядок"
+   },
+   "shuffleModeOn": {
+      "description": "Tip: Shuffle mode on",
+      "message": "Случайный порядок"
+   },
+   "speed": {
+      "description": "Play speed",
+      "message": "Скорость"
+   },
+   "supportMail": {
+      "description": "tech support",
+      "message": "Служба технической поддержки"
+   },
+   "time": {
+      "description": "Time",
+      "message": "Время"
+   },
+   "viewModeGrid": {
+      "description": "Tip: View mode grid",
+      "message": "Галерея"
+   },
+   "viewModeHybrid": {
+      "description": "Tip: View mode hybrid",
+      "message": "Список галерей"
+   },
+   "viewModeList": {
+      "description": "Tip: View mode list",
+      "message": "Список файлов"
+   },
+   "volume": {
+      "description": "Volume",
+      "message": "Громкость"
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/fvd.single.icon.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extension_hint__"
+   },
+   "content_scripts": [ {
+      "css": [ "js/hooks/content.css" ],
+      "js": [ "js/hooks/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Popular Video Downloader. Downloads most popular media formats, flash videos.",
+   "icons": {
+      "128": "images/fvd.single.main_128.png",
+      "16": "images/fvd.single.main_16.png",
+      "24": "images/fvd.single.main_24.png",
+      "32": "images/fvd.single.main_32.png",
+      "48": "images/fvd.single.main_48.png",
+      "64": "images/fvd.single.main_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqPtICeN9YHEIc3Z6nfFTk8se8BAJsv9N8IICFXiIzn66RpELTA9Yfdvqon3fdHmE5geqccyEGbASRbD67JSFZ8QWwN2QdHx2fMxrCkR3RNjGv1YmLm0oLcjuRV+iX7bbxZ7Wt4gkFgdzIakWZEn5o0eXTsPBMEv8ScDNKLzwGZpxDxaQ/cBP7gloXqDHi1APJGMpvmouYiRmC1gtQ4h+JLaSPCTckxc6tTfLg4afPFuKXF7Ia5/qHnCZWQ7naP9nJhftO6OG/D+p2lzdB5u+bqfF+WKIze3rSZWqJAi/CV1P6nLG3QAwZTwxisD4h4hwOdigw+1UvnDhRX65hoSfnwIDAQAB",
+   "manifest_version": 2,
+   "name": "Flash Video Downloader",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "http://*/*", "https://*/*", "cookies", "webRequestBlocking", "storage", "management", "downloads" ],
+   "short_name": "Video Downloader",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.1.3",
+   "web_accessible_resources": [ "*" ]
+}
